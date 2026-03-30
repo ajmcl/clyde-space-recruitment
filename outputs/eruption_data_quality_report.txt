@@ -1,0 +1,38 @@
+Data Quality Report for Volcanic Eruption Dataset
+=================================================
+
+Initial Base Dataset Validation Checks
+------------------------------
+Non integer Volcano Numbers: 0
+Duplicate Volcano Numbers: 0
+Non integer Eruption Numbers: 0
+Duplicate Eruption Numbers: 2
+
+Post-Cleaning Base Dataset Validation Checks
+---------------------------------------------
+Non integer Volcano Numbers: 0
+Duplicate Volcano Numbers: 0
+Non integer Eruption Numbers: 0
+Duplicate Eruption Numbers: 0
+
+
+
+Initial Merged Dataset Validation Checks
+---------------------------------------------
+Start Year check: Fail
+End Year check: Fail
+Volcano Name consistency errors: 27
+Latitude consistency errors: 214
+Longitude consistency errors: 203
+Null eruption duration: 6557
+
+Final Merged Dataset Validation Checks
+---------------------------------------------
+Start Year check: Pass
+End Year check: Pass
+Start Year uncertainty > 1: 0
+End Year uncertainty > 1: 0
+Volcano Name consistency errors: 4
+Latitude consistency errors: 78
+Longitude consistency errors: 69
+Null eruption duration: 0
